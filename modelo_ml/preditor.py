@@ -10,9 +10,13 @@ RISCOS = {0: 'baixo', 1: 'medio', 2: 'alto'}
 
 def calcular_tendencia(historico_niveis):
     """Calcula a tendência de subida/descida do nível da água"""
+    # Remove valores None
+    historico_niveis = [n for n in historico_niveis if n is not None]
+
+    # Verifica se tem pelo menos 2 valores válidos
     if len(historico_niveis) < 2:
         return 0
-    
+
     diferenca = historico_niveis[-1] - historico_niveis[0]
     return diferenca / len(historico_niveis)
 

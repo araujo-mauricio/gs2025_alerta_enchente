@@ -55,3 +55,30 @@ def registrar_log(nivel, chuva, risco, probabilidades=None, tendencia=None):
         if tendencia is not None:
             log += f" | Tendência: {tendencia:.2f}"
         arquivo.write(log + "\n")
+
+# ----------------------------------------
+# Função opcional para envio de SMS via Twilio
+# Requer instalação: pip install twilio
+# ----------------------------------------
+
+from twilio.rest import Client
+
+def enviar_sms_alerta(mensagem, destino='+55SEU_NUMERO'):
+    try:
+        # Substitua com as credenciais reais da sua conta Twilio
+        account_sid = 'SEU_ACCOUNT_SID'
+        auth_token = 'SEU_AUTH_TOKEN'
+        numero_origem = '+1SEU_NUMERO_TWILIO'  # Número gerado pelo Twilio
+
+        client = Client(account_sid, auth_token)
+
+        message = client.messages.create(
+            body=mensagem,
+            from_=numero_origem,
+            to=destino
+        )
+
+        print(f"✅ SMS enviado com sucesso para {destino} (SID: {message.sid})")
+
+    except Exception as e:
+        print(f"❌ Erro ao enviar SMS: {e}")

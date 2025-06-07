@@ -4,7 +4,7 @@ from email.mime.multipart import MIMEMultipart
 
 # Configurações do remetente
 EMAIL_REMETENTE = "alertasenchentes@gmail.com"
-SENHA_REMETENTE = "qtly ecbw dqpi prgm"
+SENHA_REMETENTE = "jpbw wcfn atnq zknz"
 SMTP_SERVIDOR = "smtp.gmail.com"
 SMTP_PORTA = 587
 
