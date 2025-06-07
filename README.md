@@ -1,18 +1,12 @@
-
 # 🌊 Sistema Preditivo de Alerta de Enchentes Urbanas
 
 Este projeto propõe uma solução digital integrada para prever e alertar, em tempo real, riscos de enchentes urbanas em regiões críticas do Brasil. Combinando sensores de nível d’água (ESP32), análise de dados meteorológicos e Machine Learning, o sistema classifica o risco e aciona alertas conforme a gravidade.
-=======
-
-# 🌊 Sistema Preditivo de Alerta de Enchentes Urbanas
 
 ---
 
 ## 🎯 Objetivo
 
 Desenvolver um sistema inteligente que utilize sensores físicos e algoritmos de Machine Learning para classificar riscos de enchente e emitir alertas em tempo real, apoiando a resposta em regiões críticas do Brasil.
-=======
-Desenvolver uma solução digital capaz de prever e alertar sobre enchentes urbanas com base em dados reais, sensores físicos (ESP32) e algoritmos de Machine Learning em Python. O sistema visa oferecer apoio à tomada de decisão em regiões de risco frequente no Brasil.
 
 ---
 
