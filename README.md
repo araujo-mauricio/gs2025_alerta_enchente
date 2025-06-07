@@ -1,19 +1,24 @@
+
 # 🌊 Sistema Preditivo de Alerta de Enchentes Urbanas
 
 Este projeto propõe uma solução digital integrada para prever e alertar, em tempo real, riscos de enchentes urbanas em regiões críticas do Brasil. Combinando sensores de nível d’água (ESP32), análise de dados meteorológicos e Machine Learning, o sistema classifica o risco e aciona alertas conforme a gravidade.
+=======
+
+# 🌊 Sistema Preditivo de Alerta de Enchentes Urbanas
 
 ---
 
 ## 🎯 Objetivo
 
 Desenvolver um sistema inteligente que utilize sensores físicos e algoritmos de Machine Learning para classificar riscos de enchente e emitir alertas em tempo real, apoiando a resposta em regiões críticas do Brasil.
+=======
+Desenvolver uma solução digital capaz de prever e alertar sobre enchentes urbanas com base em dados reais, sensores físicos (ESP32) e algoritmos de Machine Learning em Python. O sistema visa oferecer apoio à tomada de decisão em regiões de risco frequente no Brasil.
 
 ---
 
 ## 🌍 Contexto do Problema
 
 Eventos de enchente em centros urbanos brasileiros têm causado mortes, prejuízos e caos em áreas vulneráveis. Tragédias como as de Porto Alegre (2024), Petrópolis (2022) e Recife (2023) evidenciam a necessidade de sistemas preditivos integrados a sensores e dados climáticos.
-
 
 ---
 
@@ -63,6 +68,9 @@ Eventos de enchente em centros urbanos brasileiros têm causado mortes, prejuíz
 ## 📁 Estrutura do Projeto
 
 ```plaintext
+=======
+## 🗂️ Estrutura do Projeto
+
 📂 alerta_enchente_br/
 ├── 📁 docs/
 │   └── arquitetura_sistema.png
@@ -78,12 +86,12 @@ Eventos de enchente em centros urbanos brasileiros têm causado mortes, prejuíz
 │   ├── alerta_medio.mp3
 │   ├── alertas.py
 │   └── sirene_alerta.mp3
+│   └── alertas.py
 ├── 📄 analise_alertas.R
 ├── 📄 logs.txt
 ├── 📄 main.py
 ├── 📄 requirements.txt
 ├── 📄 README.md
-
 ```
 
 ## 🚀 Como Executar Localmente
@@ -172,7 +180,6 @@ Execute o arquivo `analise_alertas.R` no RStudio para:
 
 
 ---
-
 FIAP · Fase 4 · Global Solution 2025.1
 
 ---
